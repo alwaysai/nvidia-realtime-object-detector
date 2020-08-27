@@ -21,7 +21,6 @@ def main():
     obj_detect.load(engine=edgeiq.Engine.DNN_CUDA,
                     accelerator=edgeiq.Accelerator.NVIDIA_FP16)
 
-
     print("Loaded model:\n{}\n".format(obj_detect.model_id))
     print("Engine: {}".format(obj_detect.engine))
     print("Accelerator: {}\n".format(obj_detect.accelerator))
