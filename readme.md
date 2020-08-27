@@ -1,6 +1,6 @@
 # NVIDIA Real-Time Object Detector
 
-This alwaysAI performs object detection in real-time on NVIDIA Jetson devices.
+This alwaysAI app performs object detection in real-time on NVIDIA Jetson devices.
 
 ## Setup
 
@@ -10,7 +10,7 @@ Next, create an empty project to be used with this app. When you clone this repo
 
 ## Usage
 
-Once the alwaysAI toolset is installed on your development machine (or edge device if developing directly on it) you can run the following CLI commands:
+Once the alwaysAI tools are installed on your development machine (or edge device if developing directly on it) you can run the following CLI commands:
 
 To set up the target device & install path
 
