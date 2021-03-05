@@ -4,13 +4,9 @@ import edgeiq
 Use object detection to detect objects in the frame in realtime. The
 types of objects detected can be changed by selecting different models.
 
-To change the computer vision model, follow this guide:
-https://dashboard.alwaysai.co/docs/application_development/changing_the_model.html
-
-To change the engine and accelerator, follow this guide:
-https://dashboard.alwaysai.co/docs/application_development/changing_the_engine_and_accelerator.html
-
-To install app dependencies in the runtime container, list them in the requirements.txt file.
+To change the computer vision model, the engine and accelerator,
+and add additional dependencies read this guide:
+https://alwaysai.co/docs/application_development/configuration_and_packaging.html
 """
 
 
