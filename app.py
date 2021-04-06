@@ -11,11 +11,8 @@ https://alwaysai.co/docs/application_development/configuration_and_packaging.htm
 
 
 def main():
-    obj_detect = edgeiq.ObjectDetection(
-            "alwaysai/yolo_v3")
-    # Note: NVIDIA_FP16 provides a performance boost compared to the default NVIDIA backend
-    obj_detect.load(engine=edgeiq.Engine.DNN_CUDA,
-                    accelerator=edgeiq.Accelerator.NVIDIA_FP16)
+    obj_detect = edgeiq.ObjectDetection("alwaysai/yolo_v3")
+    obj_detect.load(engine=edgeiq.Engine.DNN_CUDA)
 
     print("Loaded model:\n{}\n".format(obj_detect.model_id))
     print("Engine: {}".format(obj_detect.engine))
