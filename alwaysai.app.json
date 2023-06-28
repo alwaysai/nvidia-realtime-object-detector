@@ -3,6 +3,6 @@
     "start": "python app.py"
   },
   "models": {
-    "alwaysai/yolo_v3": 5
+    "alwaysai/yolo_v3": 6
   }
 }
